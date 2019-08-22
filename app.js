@@ -1,3 +1,5 @@
+//这一篇讲的是两个vue实例，el和div里面的id分别对应
+
 var one = new Vue({
     el: '#vue-app-one',
     data: {
