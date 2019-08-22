@@ -1,3 +1,4 @@
+//ref是引用，和input标签里面的ref字段是相对应的
 new Vue({
     el: '#vue-app-one',
     data: {
