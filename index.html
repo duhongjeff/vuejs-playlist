@@ -1,3 +1,5 @@
+
+<!--在监听键盘事件时，我们经常需要检查详细的按键。Vue 允许为 v-on 在监听键盘事件时添加按键修饰符：-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,6 +14,7 @@
             <label>Name:</label>
             <input type="text" v-on:keyup.enter="logName" />
             <label>Age:</label>
+            <!--要同时按下alt和enter的时候才能够奏效-->
             <input type="text" v-on:keyup.alt.enter="logAge" />
         </div>
     </body>
