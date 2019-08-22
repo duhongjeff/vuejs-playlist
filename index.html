@@ -9,8 +9,11 @@
     <body>
         <div id="vue-app">
             <h1>Data Binding</h1>
+            <!--直接绑定的是HTML标签里面的value，不绑定的话点不开-->
             <p><a v-bind:href="website">The Net Ninja Website</a></p>
+            <!--直接绑定的是HTML标签-->
             <p v-html="websiteTag"></p>
+            <!--这个v-bind:value类似于{{name}}，是值的绑定-->
             <p><input type="text" v-bind:value="name" /></p>
         </div>
     </body>
